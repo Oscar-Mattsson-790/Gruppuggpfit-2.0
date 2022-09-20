@@ -56,9 +56,9 @@ body {
   height: 100%;
   background-image: url("/css/img/family.png");
   background-color: #c7ddea;
-  background-size: 220px;
+  background-size: 240px;
   background-repeat: no-repeat;
-  background-position: bottom 0px right 5px;
+  background-position: bottom 0px right 15px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -68,6 +68,8 @@ body {
   font-size: 50px;
   margin-left: 5rem;
   margin-bottom: 1rem;
+  margin-top: 60px;
+  line-height: 3rem;
 }
 
 .container header .upperLeft p {
@@ -387,6 +389,7 @@ main .upperMain article {
   height: 17%;
   width: 100%;
   margin: 0;
+  padding-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -401,6 +404,10 @@ main .upperMain article {
   margin: 0;
 }
 
+footer div p{
+  margin: 0;
+}
+
 .up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
@@ -409,4 +416,5 @@ main .upperMain article {
 .takeUp {
   margin-top: 0;
   margin-bottom: 3rem;
+  
 }
