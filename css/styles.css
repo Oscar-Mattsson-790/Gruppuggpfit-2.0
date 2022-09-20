@@ -7,7 +7,7 @@
   font-family: myFirstFont;
   src: url("/css/Frank_Ruhl_Libre/FrankRuhlLibre-Bold.ttf");
   font-family: mySecondFont;
-  src: url("/css/Fira_Sans/FiraSans-Bold.ttf");
+  src: url("/css/Fira_Sans/FiraSans-SemiBold.ttf");
 }
 
 h1 {
@@ -86,7 +86,7 @@ body {
   border-radius: 40px;
   background-color: #fff;
   border: none;
-  margin-right: 9rem;
+  margin-right: 10rem;
   margin-top: 1rem;
   font-weight: bold;
 }
