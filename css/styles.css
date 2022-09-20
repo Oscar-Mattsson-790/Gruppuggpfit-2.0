@@ -271,9 +271,10 @@ main .upperMain article {
   margin-top: -2.5rem;
   background-image: url(/css/img/child.png);
   background-repeat: no-repeat;
-  background-position: top -2px center;
-  background-size: 7rem;
+  background-position: top 5px center;
+  background-size: 6rem;
   border-radius: 5px;
+  
 }
 
 .adult {
@@ -283,9 +284,10 @@ main .upperMain article {
   margin-top: -2.5rem;
   background-image: url(/css/img/adult.png);
   background-repeat: no-repeat;
-  background-position: top 1px center;
-  background-size: 8rem;
+  background-position: top 10px center;
+  background-size: 6rem;
   border-radius: 5px;
+  
 }
 
 .old {
