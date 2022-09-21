@@ -5,7 +5,7 @@
 /* FONT SIZES */
 @font-face {
   font-family: myFirstFont;
-  src: url("/css/Frank_Ruhl_Libre/FrankRuhlLibre-Bold.ttf");
+  src: url("/css/Frank_Ruhl_Libre/FrankRuhlLibre-Regular.ttf");
   font-family: mySecondFont;
   src: url("/css/Fira_Sans/FiraSans-SemiBold.ttf");
 }
@@ -22,8 +22,15 @@ h3 {
   font-family: "myFirstFont", "Frank_Ruhl_Libre";
 }
 
+h4 {
+  font-family: "mySecondFont", "FiraSans";
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.7);
+}
+
 p {
   font-family: "mySecondFont", "FiraSans";
+  font-weight: lighter;
 }
 
 button {
@@ -49,6 +56,15 @@ body {
   grid-row: span 8;
   display: flex;
   flex-direction: row;
+}
+
+.headerP {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.headerText {
+  font-size: 35px;
 }
 
 .container header .upperLeft {
@@ -276,7 +292,6 @@ main .upperMain article {
   background-position: top 5px center;
   background-size: 6rem;
   border-radius: 5px;
-  
 }
 
 .adult {
@@ -289,7 +304,6 @@ main .upperMain article {
   background-position: top 10px center;
   background-size: 6rem;
   border-radius: 5px;
-  
 }
 
 .old {
@@ -404,7 +418,7 @@ main .upperMain article {
   margin: 0;
 }
 
-footer div p{
+footer div p {
   margin: 0;
 }
 
@@ -416,5 +430,5 @@ footer div p{
 .takeUp {
   margin-top: 0;
   margin-bottom: 3rem;
-  
+  color: rgba(0, 0, 0, 0.7);
 }
