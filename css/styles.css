@@ -103,7 +103,7 @@ body {
   background-color: #fff;
   border: none;
   margin-right: 10rem;
-  margin-top: 1rem;
+  margin-top: 0.6;
   font-weight: bold;
 }
 
@@ -135,8 +135,9 @@ body {
   margin-bottom: 0;
 }
 .headerText {
-  margin-top: 0;
+  margin: 0;
   color: white;
+  
 }
 .container menu {
   grid-column: span 6;
@@ -197,12 +198,13 @@ main .upperMain article {
   color: #fff;
   font-size: 48;
   width: 350px;
-  margin: 4rem 4rem 2rem 3rem;
+  margin: 5.2rem 4rem 2.6rem 3rem;
+  line-height: 2.7rem;
 }
 
 .uppermain p {
   width: 300px;
-  margin: 4rem 4rem 4rem 3rem;
+  margin: 5.2rem 4rem 4rem 3rem;
   line-height: 25px;
   color: rgba(0, 0, 0, 0.6);
 }
