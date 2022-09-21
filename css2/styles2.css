@@ -5,6 +5,8 @@
 @font-face {
   font-family: myFirstFont;
   src: url("/css2/Frank_Ruhl_Libre/FrankRuhlLibre-Bold.ttf");
+  font-family: mySecondFont;
+  src: url("/css/Fira_Sans/FiraSans-SemiBold.ttf");
 }
 
 h1 {
@@ -13,6 +15,10 @@ h1 {
 h2 {
   font-family: "myFirstFont", "Frank_Ruhl_Libre";
 }
+p {
+  font-family: "mySecondFont", "FiraSans";
+}
+
 body {
   height: 100vh;
   width: 100vw;
@@ -171,4 +177,9 @@ input::placeholder {
   grid-column: span 6;
   grid-row: span 5;
   background-color: #777574;
+}
+
+.contactText {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
 }
